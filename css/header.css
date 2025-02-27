@@ -1,0 +1,247 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+/*Header*/
+header{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+    z-index: 100;
+    color: white;
+}
+
+.funktioner_header{
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    align-items: center; /* Centers content vertically */
+    z-index: 101;
+}
+
+header img{
+    cursor: pointer;
+}
+
+/*Searchbar*/
+    /*Styling af menupunkter*/
+    .searchbar ul{
+        list-style: none;
+    }
+    /*Ændring af flex*/
+    .searchbar{
+        position: relative;
+        float: left;
+        text-align: center;
+    }
+
+    .searchbar h2{
+        font-size: 40px;
+    }
+    /*Styling af links*/
+    .searchbar a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        font-family: 'title_rockstar';
+
+    }
+    .searchbar form{
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        font-family: 'title_rockstar';
+        transform: scale(1.5);
+    }
+
+    #search-bar {
+        display: none;
+    }
+    #search-bar:checked ~ .searchbar {
+        display: block;
+    }
+    /*Fjernelse af dropdown menu ved click*/
+    #close-menu {
+        display: none;
+    }
+
+
+
+    @media(max-width:8800px){
+    
+        header .searchbar{
+            position: absolute;
+            top: 100%;
+            left:0;
+            right:0;
+            background: var(--backgroundBeige);
+            display: none;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header .searchbar ul li {
+            width: 100%;
+        }
+
+        header .searchbar ul li ul {
+            position: relative;
+            width: 100%;
+        }
+
+        header .searchbar ul li ul li {
+            background: #fafafa;
+        }
+
+        header .searchbar ul li ul li ul {
+            width: 100%;
+            left:0;
+        }
+
+        #search-bar:checked ~ .searchbar {
+            display: block;
+        }
+
+    }
+
+/*Styling af submit button*/
+    .button_submit{
+        background-color: var(--textWhite);
+        font-family: "title_rockstar";
+        width: 6rem;
+        height: 2rem;
+    }
+    .button_submit:hover{
+        background-color: var(--radargul);
+        cursor: pointer;
+    }
+
+/*Styling af searchbar-felt*/
+    .form_text{
+        width: 10rem;
+        height: 2rem;
+        font-family: "title_rockstar";
+        letter-spacing: 1px;
+        border: #000;
+        border-radius: 1px;
+        background-color: var(--textWhite);
+        text-align: center;
+    }
+
+/*Navbar - dropdown menu*/
+.navbar{
+    margin-top:1rem;
+    background-color: var(--backgroundBeige);
+    z-index: 50; 
+}
+    /*Styling af menupunkter*/
+    .navbar ul{
+        list-style: none;
+        margin-top: 8rem;
+    }
+    /*Ændring af flex*/
+    .navbar ul li{
+        position: relative;
+        float: left;
+    }
+    /*Styling af links*/
+    .navbar ul li a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 5rem;
+        padding: 18px;
+        color: #000000;
+        display: block;
+        font-family: 'brewski';
+    }
+
+    #menu-bar {
+        display: none;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: block;
+    }
+    /*Fjernelse af dropdown menu ved click*/
+    #close-menu {
+        display: none;
+    }
+
+    @media(max-width:8800px){
+
+
+        header {
+            padding: 20px;
+        }
+        
+        
+
+        header .navbar{
+            position: absolute;
+            top: 100%;
+            left:0;
+            right:0;
+            background: var(--backgroundBeige);
+            display: none;
+            width: 100vw;
+            height: 110vh;
+            margin-top: -15rem;
+        }
+
+        header .navbar ul li {
+            width: 100%;
+        }
+
+        header .navbar ul li ul {
+            position: relative;
+            width: 100%;
+        }
+
+        header .navbar ul li ul li {
+            background: #fafafa;
+        }
+
+        header .navbar ul li ul li ul {
+            width: 100%;
+            left:0;
+        }
+
+        #menu-bar:checked ~ .navbar {
+            display: block;
+        }
+
+    }

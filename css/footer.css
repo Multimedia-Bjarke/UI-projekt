@@ -1,0 +1,32 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+/*Section 1 - footer*/
+.section_footer{
+    background-color: var(--footerOrange);
+    width: 100vw;
+    height: 20vw;
+    margin: 0;
+}

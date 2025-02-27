@@ -1,0 +1,82 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+h1{
+    font-family: "brewski";
+    color: var(--textWhite);
+    font-size: 5rem;
+}
+
+h2{
+    font-family: "poppins_thin";
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-family: "poppins_thin";
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: "poppins_thin";
+    font-size: 1rem;
+}
+
+/*Background*/
+body{
+    width: 100%;
+    background-color: var(--backgroundBeige);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    margin: 0;
+}
+
+section{
+    box-sizing: border-box;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 10rem;
+    overflow: hidden;
+    
+}
+
+/*Links*/
+a{
+    text-decoration: none;
+    color: ;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: ease-in 0.1s;
+}
+
