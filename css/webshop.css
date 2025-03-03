@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     margin-top: -15rem;
-    margin-bottom: -35rem;
     max-width: 100vw;
 }
 
@@ -15,30 +14,162 @@
 
 /*Section 1 - kampagne hero*/
 .kampagne_hero{
-    transform: scale(0.8);
+    transform: scale(0.85x);
+    display: flex;
+    justify-content: center
 }
 
-/*Section 2 - filters grid*/
 .product_filters{
+    transform: scale(0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product_filters .Brownsq{
+    width: 366px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    filter: drop-shadow(2px 5px 2px #000000);
+    background-color: #311e10;
+    z-index: 1000;
+}
+
+.product_filters .Brownsq a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins' ;
+    font-size: 30px;
+}
+
+#productpage{
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
-    row-gap: ;
-    column-gap: ;
-    justify-items: center;
+    row-gap: 200px;
+    margin-bottom: 5%;
 }
 
-/*Section 3 - product grids*/
-.productGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    row-gap: ;
-    column-gap: ;
-    justify-items: center;
+
+/* STYLING AF ALLE PRODUKTER MED FORSKELLIGT ID*/
+
+#Innerbox1{
+    height: 450px;
+    width: 330px;
+    background-color: #FFFBF4;
+    filter: drop-shadow(2px -2px 1px #000000);
+}
+.productheadline {
+    margin-top: 0%;
+    font-weight: 1000;
+    font-size: 30px;
 }
 
-.product_boxes{
-    background-color: blue;
-
+.productprice {
+    margin-top: -7%;
+    font-weight: 300;
+    font-size: 25px;
 }
+
+
+.productread{
+    width: 140px;
+    height: 40px;
+    background-color: #013D5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#product1c{
+    align-items: center;
+}
+
+.productbuttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* STYLING AF BILLEDER */
+.imagecon{
+    width: 237px;
+    height: 353px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+
+.imagecon4{
+    width: 237px;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.imagecon5{
+    width: 237px;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.imagecon7{
+    width: 237px;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.imagecon9{
+    width: 237px;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Innerbox2{
+    display: flex;
+    justify-content: center;
+}
+
+.productbatch{
+    width: 140px;
+    height: 40px;
+    background-color: #F4A258;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productbuttons a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins' ;
+    font-size: 15px;
+}
+

@@ -24,26 +24,35 @@
 }
 
 /*Section 1 - footer*/
-footer{
+.footer {
     width: 100vw;
     height: auto;
-}
-.section_footer{
-    background-color: var(--footerOrange);
-    max-width: 100vw;
-    height: 15vh;
-    margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    overflow: hidden;
-
-
+    grid-template-columns: repeat(4, 1fr); /* Fire lige brede kolonner */
+    gap: 20px; 
+    background-color: #F4A258;
+    padding: 20px;
+    text-align: left;
+    margin-left: 0px;
 }
 
-.column1{
-    display: block;
-    justify-content: center;
-    
+.footer-col p {
+    text-align: left;
+    align-items: left; /* Centrerer både ikon og tekst vertikalt */
 }
+
+.ikon {
+    width: 50px;  
+    height: 50px; 
+    vertical-align: middle;
+}
+
+.footer-col logo {
+    width: 50px;
+}
+
+
+
+
+
+

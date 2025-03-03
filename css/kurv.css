@@ -1,0 +1,43 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+    --product_box: #013c5a4f;
+}
+
+/*Section 1 - kurv*/
+.kurv{
+display: block;
+}
+
+.product_box{
+    display: flex;
+    background-color: var(--product_box);
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.productIMG{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    transform: scale(0.5);
+    background-color: var(--boxWhite);
+    width: 10rem;
+    height: 10rem;
+}
+
+.productInfo{
+}
+
+/*Section 2 - sum*/
+.sum{
+
+}
+

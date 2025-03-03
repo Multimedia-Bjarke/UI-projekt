@@ -1,0 +1,52 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Section 0 - Hero*/
+.hero{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: -15rem;
+    margin-bottom: -35rem;
+    max-width: 100vw;
+}
+
+.hero img{
+    transform: scale(0.5);
+}
+
+/*Section 1 - Title and description*/
+.productSite{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+justify-content: center;
+text-align: center;
+}
+
+/*Description*/
+.description{
+    display: block;
+    justify-items: left;
+}
+
+.description p{
+    text-align: left;
+    width: 25rem;
+}
+
+/*God til - flex*/
+.godTil{
+    display: flex;
+    gap: 3rem;
+}
+
+#slider{
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,146 @@
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h4{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1.2rem;
+}
+
+h5{
+    display: block;
+    justify-content: left;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+.container{
+    display: block;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.flexbox1{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.text_container{
+    display: block;
+    text-align: left;
+}
+
+.zest{
+    width: 185px;
+    height: auto;
+    overflow: hidden;
+    padding-right: 1%;
+}
+
+.spil{
+    width: 236px;
+    height: auto;
+    overflow: hidden;
+}
+
+.oelbowling{
+    width: 230px;
+    height: auto;
+    overflow: hidden;
+}
+
+.grill{
+    width: 225px;
+    height: auto;
+    overflow: hidden;
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.sommerfest{
+    width: 225px;
+    height: auto;
+    overflow: hidden;
+}
+
+.oelfest{
+    width: 225px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pigeaften{
+    width: 225px;
+    height: auto;
+    overflow: hidden;
+}
+
+h6{
+    writing-mode: vertical-rl;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    font-family: "poppins_bold";
+    color: var(--boxWhite);
+    background-color: var(--footerOrange);
+    border: none;
+    margin-bottom: 2%;
+    padding: 15px 32px;
+    border-radius: 2px; /*afrundede kanter*/
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Skygge på knappen*/
+    cursor: pointer;
+}
