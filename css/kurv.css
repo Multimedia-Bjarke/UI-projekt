@@ -8,6 +8,12 @@
     --product_box: #013c5a4f;
 }
 
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
 /*Section 1 - kurv*/
 .kurv{
 display: block;
@@ -31,13 +37,27 @@ display: block;
     background-color: var(--boxWhite);
     width: 10rem;
     height: 10rem;
+    margin-left: -2.5rem;
 }
 
 .productInfo{
+margin-left: -2rem;
 }
 
+.produktPris{
+    display: flex;
+    margin-left: 62rem;
+}
+
+.icon_slet{
+    display: flex;
+    margin-left: 2rem; 
+}
 /*Section 2 - sum*/
 .sum{
-
+display: block;
+margin-top: -1rem;
+border-top: 2px solid black; 
+    padding-top: 1rem; 
 }
 

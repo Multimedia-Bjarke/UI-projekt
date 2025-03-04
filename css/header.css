@@ -48,8 +48,22 @@ header{
     z-index: 101;
 }
 
-header img{
+.funktioner_header img {
+    width: 40px; /* Mindre ikoner */
+    height: auto;
+}
+
+header img,
+.ol{
     cursor: pointer;
+    width: 70px;
+    height: auto;
+    margin: 8px;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
 }
 
 /*Searchbar*/
@@ -106,7 +120,6 @@ header img{
     
         header .searchbar{
             position: absolute;
-            top: 100%;
             left:0;
             right:0;
             background: var(--backgroundBeige);
@@ -117,6 +130,7 @@ header img{
 
         header .searchbar ul li {
             width: 100%;
+            
         }
 
         header .searchbar ul li ul {
@@ -172,7 +186,6 @@ header img{
     /*Styling af menupunkter*/
     .navbar ul{
         list-style: none;
-        margin-top: 8rem;
     }
     /*Ændring af flex*/
     .navbar ul li{

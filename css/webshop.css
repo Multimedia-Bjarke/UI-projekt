@@ -1,5 +1,23 @@
 
 /*Section 0 - Hero*/
+
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+
+
 .hero{
     width: 100vw;
     display: flex;
@@ -40,8 +58,9 @@
 
 .product_filters .Brownsq a{
     text-decoration: none;
+    cursor: pointer;
     color: white;
-    font-family: 'poppins' ;
+    font-family: "poppins_thin";
     font-size: 30px;
 }
 
@@ -169,7 +188,10 @@
 .productbuttons a{
     text-decoration: none;
     color: white;
-    font-family: 'poppins' ;
+    font-family: "poppins_thin" ;
     font-size: 15px;
+    cursor: pointer;
 }
+
+
 
