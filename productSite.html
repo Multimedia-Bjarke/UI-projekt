@@ -66,6 +66,56 @@
         </form>
       </search>
 
+      <!--Header-->
+    <header>
+      <a href="index.html" class="logo"
+        ><img
+          src="images/header/logo_zbb_black.svg"
+          alt="Zero Buzz Brew logo i sort"
+      /></a>
+
+      <!--Checkboxes-->
+      <input type="checkbox" name="search-bar" id="search-bar" />
+      <input type="checkbox" id="menu-bar" />
+
+      <!--Container for menu-icons-->
+      <div class="funktioner_header">
+        <label for="search-bar">
+          <img
+            id="search_icon"
+            src="images/header/icon_searchBeer.svg"
+            alt="ikon: search"
+          />
+        </label>
+
+        <label for="kurv">
+          <a href="kurv.html"
+            ><img
+              src="images/header/icon_regBasket.svg"
+              alt="knap: til indkøbskurv"
+          /></a>
+        </label>
+
+        <label for="menu-bar"
+          ><img src="images/header/icon_burgermenu.svg" alt="ikon: bugermenu"
+        /></label>
+      </div>
+
+      <!--Searchbar-->
+      <search class="searchbar">
+        <h2>Find your beer</h2>
+        <form action="#kontakt" method="get">
+          <input
+            class="form_text"
+            id="search"
+            name="search"
+            type="text"
+            placeholder="Indtast section ID..."
+          />
+          <input class="button_submit" type="submit" />
+        </form>
+      </search>
+
       <!--Navbar-->
       <nav class="navbar">
         <ul>
@@ -73,6 +123,7 @@
           <li><a href="/hvorfor.html">Hvorfor alkoholfri?</a></li>
           <li><a href="#">Anbefalinger</a></li>
           <li><a href="#">Om os</a></li>
+          <li><a href="index.html">Forside</a></li>
         </ul>
       </nav>
     </header>

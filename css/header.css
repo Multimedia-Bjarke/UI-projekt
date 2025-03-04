@@ -29,7 +29,6 @@ h2{
 /*Header*/
 header{
     width: 100%;
-    height: auto;
     margin: 0;
     box-sizing: border-box;
     position: fixed;
@@ -73,6 +72,9 @@ label[for="search-bar"] img {
     height: auto;
 }
 
+
+/**/
+
 /*Searchbar*/
     /*Styling af menupunkter*/
     .searchbar ul{
@@ -83,10 +85,16 @@ label[for="search-bar"] img {
         position: relative;
         float: left;
         text-align: center;
+        height: 200%;
+        width: auto;
+        margin-top: -1.25rem;
+        
     }
 
     .searchbar h2{
         font-size: 40px;
+        position: relative;
+        top: 15rem;
     }
     /*Styling af links*/
     .searchbar a{
@@ -108,6 +116,9 @@ label[for="search-bar"] img {
         display: block;
         font-family: 'title_rockstar';
         transform: scale(1.5);
+        position: relative;
+        top: 15rem;
+
     }
 
     #search-bar {
@@ -120,7 +131,9 @@ label[for="search-bar"] img {
     #close-menu {
         display: none;
     }
-
+#search_icon{
+    transform: scale(0.7);
+}
 
 
     @media(max-width:8800px){
@@ -163,12 +176,13 @@ label[for="search-bar"] img {
 /*Styling af submit button*/
     .button_submit{
         background-color: var(--textWhite);
-        font-family: "title_rockstar";
+        font-family: "poppins_bold";
         width: 6rem;
         height: 2rem;
+
     }
     .button_submit:hover{
-        background-color: var(--radargul);
+        background-color: var(--footerOrange);
         cursor: pointer;
     }
 
@@ -176,12 +190,13 @@ label[for="search-bar"] img {
     .form_text{
         width: 10rem;
         height: 2rem;
-        font-family: "title_rockstar";
+        font-family: "poppins_thin";
         letter-spacing: 1px;
         border: #000;
         border-radius: 1px;
-        background-color: var(--textWhite);
+        background-color: var(--boxWhite);
         text-align: center;
+
     }
 
 /*Navbar - dropdown menu*/
