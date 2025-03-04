@@ -34,6 +34,7 @@
     padding: 20px;
     text-align: left;
     margin-left: 0px;
+    color: var(--boxWhite);
 }
 
 .footer-col p {

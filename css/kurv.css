@@ -55,9 +55,24 @@ margin-left: -2rem;
 }
 /*Section 2 - sum*/
 .sum{
-display: block;
-margin-top: -1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70rem;
+    margin-top: -1rem;
 border-top: 2px solid black; 
     padding-top: 1rem; 
+}
+
+.sumNames{
+display: block;
+
+}
+
+.sumPris{
+    display: block;
+
+}
+.sumPris h4{
+    text-decoration: underline;
 }
 

@@ -23,6 +23,9 @@
     src: url(/fonts/poppins/Poppins-Bold.ttf);
 }
 
+h2{
+    color: black;
+}
 /*Header*/
 header{
     width: 100%;
@@ -43,26 +46,30 @@ header{
 
 .funktioner_header{
     display: flex;
-    justify-content: flex-end; /* Aligns content to the right */
-    align-items: center; /* Centers content vertically */
+    justify-content: flex-end; 
+    align-items: center; 
     z-index: 101;
 }
 
-.funktioner_header img {
-    width: 40px; /* Mindre ikoner */
-    height: auto;
-}
-
-header img,
-.ol{
+header img{
     cursor: pointer;
-    width: 70px;
-    height: auto;
     margin: 8px;
 }
 
 .logo img{
     width: 200px;
+    height: auto;
+}
+
+/* Ændrer størrelsen på menu-ikonet */
+label[for="menu-bar"] img {
+    width: 80px;
+    height: auto;
+}
+
+/* Ændrer størrelsen på search-ikonet */
+label[for="search-bar"] img {
+    width: 40px; 
     height: auto;
 }
 
