@@ -1,0 +1,68 @@
+/*Color Variables*/
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+h1{
+    font-family: "brewski";
+    color: var(--textWhite);
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h4{
+    font-family: "poppins_thin";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3{
+    font-family:"brewski";
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.ol_kurv{
+    display: block;
+    justify-content: center;
+padding-left: 50%;
+}
+
+.tilbage{
+    font-family: "poppins_thin";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

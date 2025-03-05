@@ -53,7 +53,7 @@ h6{
     padding-top: 2%;
 }
 
-p{
+.textfield1 p{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -158,3 +158,34 @@ p{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Skygge på knappen*/
     cursor: pointer;
 }
+
+
+
+
+/*Color Variables*/
+
+:root{
+    --textBlack: #000;
+    --backgroundBeige: #FCF3E3;
+    --boxWhite:#FFFBF4;
+    --footerOrange: #F4A258;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "brewski";
+    src: url(/fonts/brewski/Brewski.ttf);
+}
+
+@font-face{
+    font-family: "poppins_thin";
+    src: url(/fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(/fonts/poppins/Poppins-Bold.ttf);
+}
+
+
+
